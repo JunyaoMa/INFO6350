@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="252" id="KGk-i7-Jjw" customClass="ImageTableViewCell" customModule="Table_View" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="465" height="252"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="465" height="252"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizza" translatesAutoresizingMaskIntoConstraints="NO" id="5Mo-tO-qO3">
+                        <rect key="frame" x="5" y="5" width="455" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="zLa-TI-CE3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V56-gZ-A2P">
+                        <rect key="frame" x="5" y="210" width="455" height="37"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5Mo-tO-qO3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="25E-RB-FY9"/>
+                    <constraint firstAttribute="bottom" secondItem="V56-gZ-A2P" secondAttribute="bottom" constant="5" id="2HF-Kd-YFF"/>
+                    <constraint firstAttribute="bottom" secondItem="V56-gZ-A2P" secondAttribute="bottom" constant="5" id="Bao-hA-Hck"/>
+                    <constraint firstAttribute="trailing" secondItem="V56-gZ-A2P" secondAttribute="trailing" constant="5" id="IMQ-1x-kIv"/>
+                    <constraint firstAttribute="bottom" secondItem="V56-gZ-A2P" secondAttribute="bottom" constant="20" symbolic="YES" id="Kgq-Zk-dRC"/>
+                    <constraint firstItem="V56-gZ-A2P" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Sld-mg-r1I"/>
+                    <constraint firstItem="V56-gZ-A2P" firstAttribute="top" secondItem="5Mo-tO-qO3" secondAttribute="bottom" constant="5" id="Tz9-GC-wPV"/>
+                    <constraint firstItem="V56-gZ-A2P" firstAttribute="top" secondItem="5Mo-tO-qO3" secondAttribute="bottom" constant="8" symbolic="YES" id="Ugp-vj-mUl"/>
+                    <constraint firstItem="V56-gZ-A2P" firstAttribute="top" secondItem="5Mo-tO-qO3" secondAttribute="bottom" constant="5" id="W38-cM-wND"/>
+                    <constraint firstItem="5Mo-tO-qO3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Wlt-Jq-lwt"/>
+                    <constraint firstItem="V56-gZ-A2P" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="XZV-3H-FIO"/>
+                    <constraint firstItem="V56-gZ-A2P" firstAttribute="top" secondItem="5Mo-tO-qO3" secondAttribute="bottom" constant="5" id="Xsa-v9-nDd"/>
+                    <constraint firstAttribute="trailing" secondItem="5Mo-tO-qO3" secondAttribute="trailing" constant="5" id="YVX-A6-T6G"/>
+                    <constraint firstAttribute="trailing" secondItem="V56-gZ-A2P" secondAttribute="trailing" constant="5" id="Zgh-4h-Bjq"/>
+                    <constraint firstItem="5Mo-tO-qO3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="gp7-qU-QPi"/>
+                    <constraint firstItem="5Mo-tO-qO3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="lfd-tq-uqe"/>
+                    <constraint firstAttribute="bottom" secondItem="V56-gZ-A2P" secondAttribute="bottom" constant="5" id="mnF-OQ-jy4"/>
+                    <constraint firstAttribute="trailing" secondItem="5Mo-tO-qO3" secondAttribute="trailing" constant="5" id="scz-mU-Fyg"/>
+                    <constraint firstItem="5Mo-tO-qO3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="szF-Ev-c13"/>
+                    <constraint firstItem="V56-gZ-A2P" firstAttribute="top" secondItem="5Mo-tO-qO3" secondAttribute="bottom" constant="5" id="yzE-NE-LyH"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="gp7-qU-QPi"/>
+                        <exclude reference="lfd-tq-uqe"/>
+                        <exclude reference="scz-mU-Fyg"/>
+                        <exclude reference="2HF-Kd-YFF"/>
+                        <exclude reference="Bao-hA-Hck"/>
+                        <exclude reference="Kgq-Zk-dRC"/>
+                        <exclude reference="Tz9-GC-wPV"/>
+                        <exclude reference="Ugp-vj-mUl"/>
+                        <exclude reference="XZV-3H-FIO"/>
+                        <exclude reference="Xsa-v9-nDd"/>
+                        <exclude reference="Zgh-4h-Bjq"/>
+                        <exclude reference="yzE-NE-LyH"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgView" destination="5Mo-tO-qO3" id="OsV-Ea-7z9"/>
+                <outlet property="lblImage" destination="V56-gZ-A2P" id="JFb-Yt-tRF"/>
+            </connections>
+            <point key="canvasLocation" x="130.53435114503816" y="92.957746478873247"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="pizza" width="1296" height="864"/>
+    </resources>
+</document>
