@@ -9,6 +9,8 @@ import UIKit
 
 class seattleTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var lblSeattle: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
